@@ -1,1 +1,1 @@
-# actions-demo
+pierwsze CI/CD
