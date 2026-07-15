@@ -16,11 +16,9 @@ jobs:
           ls -la
           
       - name: Hello GitHub Actions
-        run: echo "Hello GitHub Actions!"
-      
+        run: echo "Hello GitHub Actionsv2!"
       - name: Show GitHub context
         run: echo "Repository - ${{ github.repository }}"  
-
       - name: Run bash script
         run: |
           chmod +x ./hello.sh
